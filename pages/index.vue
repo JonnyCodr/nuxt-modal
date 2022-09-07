@@ -5,7 +5,7 @@
       <button @click="isVisible = true">MODAL</button>
       <DiceModal :is-visible="isVisible" @cancel="isVisible = false" @confirm="isVisible = false">
         <template v-slot:title>
-          <p>Model Title Example</p>
+<!--          <p>Model Title Example</p>-->
         </template>
         <template v-slot:body>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aspernatur consectetur cupiditate, debitis, deserunt error facilis laboriosam laborum libero nam nisi odit rem repellendus repudiandae similique tempore veniam vero voluptatem.</p>
